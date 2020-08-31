@@ -44,10 +44,7 @@ module.exports = {
           title: 'Community',
           items: [
            
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
+           
             {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
@@ -76,8 +73,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
